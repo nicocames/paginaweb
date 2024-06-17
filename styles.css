@@ -1,0 +1,120 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #03045e;
+    color: #ffffff;
+    padding: 2em;
+    text-align: center;
+    box-shadow: 8px 8px 16px #5b85ac, -8px -8px 16px #28465b;
+    border-radius: 15px;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.header-pic {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: #690b0b;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+/* Main */
+main {
+    flex: 1;
+    padding: 2em;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: #023e8a;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px #5b85ac, -8px -8px 16px #28465b;
+    margin-bottom: 2em;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.project {
+    background-color: #363636;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+    margin: 1em 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    color: #690b0b;
+}
+
+li {
+    background-color: #e0e0e0;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #242424;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    border-radius: 15px;
+    margin: 2em auto;
+    width: 80%;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
